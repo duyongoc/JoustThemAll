@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40141407e8e5b8a429daf86d494d0962, type: 3}
+  m_Name: Easy_level
+  m_EditorClassIdentifier: 
+  SheetName: Assets/_Game/Setting/Data/_gameplay.xlsx
+  WorksheetName: Easy_level
+  dataArray:
+  - name: 'number_of_symbol '
+    minvalue: 6
+    maxvalue: 7
+    length: 40
+    number: 
+    hidden: 
+  - name: number_of_reverse
+    minvalue: 
+    maxvalue: 
+    length: 
+    number: 0
+    hidden: 
+  - name: number_of_hidden
+    minvalue: 
+    maxvalue: 
+    length: 
+    number: 0
+    hidden: 0

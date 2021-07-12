@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ecf2f4ca1696241a0becf37c27069f, type: 3}
+  m_Name: CONFIG_Sound
+  m_EditorClassIdentifier: 
+  sfx_backgound: {fileID: 8300000, guid: 4686246cf27787042866ce1b562a1fd1, type: 3}
+  sfx_button_click: {fileID: 8300000, guid: ed86658788f4d2b46b40d50e49396395, type: 3}
+  sfx_game_start: {fileID: 8300000, guid: b63ea7380d5785d4b81655be25ba22b4, type: 3}
+  sfx_clash: {fileID: 8300000, guid: d411cd2501272534f9ac182a4d43fcfa, type: 3}
+  sfx_correct: {fileID: 8300000, guid: db1dd4e5e6b45814b9c5f7dbad0b951a, type: 3}
+  sfx_wrong: {fileID: 8300000, guid: beba1e1462d096240bb9466c0c679161, type: 3}
+  sfx_sequence_complete: {fileID: 8300000, guid: 30a699b44042c0a4e9e65b37191671dd, type: 3}
+  sfx_running: {fileID: 8300000, guid: ca92ddaf9f5c2e8499cd7722b625fa43, type: 3}
+  sfx_whoosh: {fileID: 8300000, guid: 11b00c06525306f4c93c0d19f5fd6bda, type: 3}
+  sfx_joust: {fileID: 8300000, guid: 74fc2819b49a44f498a3116b57bdf887, type: 3}
+  sfx_fast_paced: {fileID: 8300000, guid: c08084d91f98b3d4d968790a8ffb3a07, type: 3}
+  sfx_crowd: {fileID: 8300000, guid: 2180d0b0fbc93b0419784f16a1715df2, type: 3}
+  sfx_character_lost: {fileID: 8300000, guid: 888e9fd2b99c2b54f9bbd3e846202211, type: 3}
+  sfx_character_won: {fileID: 8300000, guid: 702eb0c002427e5499cab41752d59e86, type: 3}
+  sfx_Victory: {fileID: 8300000, guid: 032caf0a701e6794caa1834002c07cdb, type: 3}
+  sfx_Crow: {fileID: 8300000, guid: cb540bc3b41dc17498f856e3427b5a00, type: 3}

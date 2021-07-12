@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad2065d0d6132040b75e806c23425a6, type: 3}
+  m_Name: Gereral_config
+  m_EditorClassIdentifier: 
+  SheetName: Assets/_Game/Setting/Data/_gameplay.xlsx
+  WorksheetName: Gereral_config
+  dataArray:
+  - name: round_time
+    value: 5
+    description: "round time t\xEDnh t\u1EEB l\xFAc sau text \"Go\" bi\u1EBFn m\u1EA5t
+      (t\xEDnh theo s)"
+  - name: number_of_round_per_match
+    value: 10
+    description: "s\u1ED1 round m\u1ED7i tr\u1EADn"
+  - name: 
+    value: 
+    description: 

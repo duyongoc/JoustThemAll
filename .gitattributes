@@ -1,0 +1,168 @@
+# GAMELOFT GIT ATTRIBUTES
+#
+# gitattributes configures git behavior when performing operations (merge, diff, ...) on tracked files at given path
+# you can customize by adding your files here when they need specific handling BUT be careful when editing this file!
+# note: 
+# - gitignore superseeds this file since gitattributes only concerns tracked (non gitignored) files 
+# - git lfs is case sensitive: https://github.com/git-lfs/git-lfs/issues/1537
+
+# declare files that will always have LF line endings on checkout.
+*.command text eol=lf
+*.sh text eol=lf
+
+# GIT LFS
+# add diff=lfs merge=lfs to the files that needs to be on lfs
+
+# data source
+
+*.3dsmax filter=lfs diff=lfs merge=lfs -text
+*.aep filter=lfs diff=lfs merge=lfs -text
+*.aepx filter=lfs diff=lfs merge=lfs -text
+*.anim filter=lfs diff=lfs merge=lfs -text
+*.bip filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.fla filter=lfs diff=lfs merge=lfs -text
+*.max filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.spp filter=lfs diff=lfs merge=lfs -text
+*.zbr filter=lfs diff=lfs merge=lfs -text
+*.zpr filter=lfs diff=lfs merge=lfs -text
+*.ztl filter=lfs diff=lfs merge=lfs -text
+
+# data iff
+
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+*.flv filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.kra filter=lfs diff=lfs merge=lfs -text
+*.ktx filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.mod filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.mpc filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.pvr filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.swf filter=lfs diff=lfs merge=lfs -text
+*.tga* filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+
+# gameloft (non exhaustive)
+
+*.blibclara filter=lfs diff=lfs merge=lfs -text
+*.bdae filter=lfs diff=lfs merge=lfs -text
+*.dat filter=lfs diff=lfs merge=lfs -text
+*.pig filter=lfs diff=lfs merge=lfs -text
+*.pvs filter=lfs diff=lfs merge=lfs -text
+*.voxpack filter=lfs diff=lfs merge=lfs -text
+*.vxn filter=lfs diff=lfs merge=lfs -text
+*.vxvs filter=lfs diff=lfs merge=lfs -text
+
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.dcmp filter=lfs diff=lfs merge=lfs -text
+*.gla filter=lfs diff=lfs merge=lfs -text
+*.gla2 filter=lfs diff=lfs merge=lfs -text
+*.jet filter=lfs diff=lfs merge=lfs -text
+*.lzma filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+*.pak filter=lfs diff=lfs merge=lfs -text
+
+# doc
+
+*.chi filter=lfs diff=lfs merge=lfs -text
+*.chm filter=lfs diff=lfs merge=lfs -text
+*.doc filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.man filter=lfs diff=lfs merge=lfs -text
+*.odp filter=lfs diff=lfs merge=lfs -text
+*.ods filter=lfs diff=lfs merge=lfs -text
+*.odt filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.ppt filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.rtf filter=lfs diff=lfs merge=lfs -text
+*.xls filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+
+# archives
+
+*.cab filter=lfs diff=lfs merge=lfs -text
+*.dmg filter=lfs diff=lfs merge=lfs -text
+*.iso filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
+*.msi filter=lfs diff=lfs merge=lfs -text
+*.nib filter=lfs diff=lfs merge=lfs -text
+*.pkg filter=lfs diff=lfs merge=lfs -text
+
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.bz2 filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.tar filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+
+# database
+
+*.db filter=lfs diff=lfs merge=lfs -text
+
+# unity
+
+*.assets filter=lfs diff=lfs merge=lfs -text
+*.ress filter=lfs diff=lfs merge=lfs -text
+
+# substance
+
+*.sbs filter=lfs diff=lfs merge=lfs -text
+*.sbsar filter=lfs diff=lfs merge=lfs -text
+*.sbsbin filter=lfs diff=lfs merge=lfs -text
+*.sbsasm filter=lfs diff=lfs merge=lfs -text
+
+# binary
+
+*.elf filter=lfs diff=lfs merge=lfs -text
+
+*.aar filter=lfs diff=lfs merge=lfs -text
+*.dex filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+
+*.dle filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+
+*.nupkg filter=lfs diff=lfs merge=lfs -text
+*.winmd filter=lfs diff=lfs merge=lfs -text
+
+*.pyd filter=lfs diff=lfs merge=lfs -text
+
+# package
+
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.obb filter=lfs diff=lfs merge=lfs -text
+*.ipa filter=lfs diff=lfs merge=lfs -text
+*.war filter=lfs diff=lfs merge=lfs -text
+
+# code (and in case they are not gitignored...)
+
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.class filter=lfs diff=lfs merge=lfs -text
+*.a filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.dsym filter=lfs diff=lfs merge=lfs -text

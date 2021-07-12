@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e14a72067f1ad408ec8d661bc560ce, type: 3}
+  m_Name: CONFIG
+  m_EditorClassIdentifier: 
+  templatePath: QuickSheet/ExcelPlugin/Templates
+  scriptFilePath: _Game/Setting/Data/Runtime
+  editorScriptFilePath: _Game/Setting/Data/Editor
+  sheetName: _gameplay.xlsx
+  workSheetName: Medium_rarity
+  columnHeaderList:
+  - type: 1
+    name: Name
+    isEnable: 0
+    isArray: 0
+  - type: 1
+    name: value
+    isEnable: 0
+    isArray: 0
+  excelFilePath: Assets/_Game/Setting/Data/_gameplay.xlsx
+  SheetNames:
+  - Rule_symbol_sequence
+  - Gereral_config
+  - Battle
+  - Easy_level
+  - Medium_level
+  - Hard_level
+  - Low_rarity
+  - Medium_rarity
+  - High_rarity
+  currentSelectedSheet: 7
